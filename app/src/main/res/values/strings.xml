@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ethiopian Health Emergency</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="amharic">አማርኛ</string>
+    <string name="oromifa">Oromifa</string>
+    <string name="tigrigna">ትግርኛ</string>
+    <string name="full_name">Full name</string>
+    <string name="save">Save</string>
+    <string name="phone_number">Phone number</string>
+    <string name="birthday">Birthday</string>
+    <string name="address">Address</string>
+    <string name="basic_information">Basic information</string>
+    <string name="weight_kg">Weight ( KG )</string>
+    <string name="blood_type">Blood type</string>
+    <string name="allergy">Allergy</string>
+    <string name="emergency_contacts">Emergency contacts</string>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="spinner_sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="spinner_blood_type">
+        <item>Blood type A</item>
+        <item>Blood type B</item>
+        <item>Blood type AB</item>
+        <item>Blood type O</item>
+    </string-array>
+    <string-array name="spinner_relation">
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Wife</item>
+        <item>Husband</item>
+        <item>Family member</item>
+        <item>Close Friend</item>
+    </string-array>
+</resources>
