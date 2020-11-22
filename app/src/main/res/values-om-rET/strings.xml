@@ -2,4 +2,14 @@
 <resources>
     <string name="app_name">Ethiopian Health Emergency</string>
     <string name="select_language">Select Language(or)</string>
+    <string name="full_name">Maqaa guutuu</string>
+    <string name="save">"Galmeessi "</string>
+    <string name="phone_number">"Lakkoofsa bilbila "</string>
+    <string name="birthday">Guyyaa dhaloota</string>
+    <string name="address">Tesso</string>
+    <string name="basic_information">Odeffanoo bu\'uraa</string>
+    <string name="weight_kg">Ulfaatina</string>
+    <string name="blood_type">Gartu dhiigaa</string>
+    <string name="allergy">Allarjiki/ Haala fayya</string>
+    <string name="emergency_contacts">Waamama yeroo balaa</string>
 </resources>

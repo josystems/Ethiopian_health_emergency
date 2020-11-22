@@ -1,9 +1,9 @@
-package com.josystems.mycollageapp.qrcode;
+package com.hackaton.ethiopianhealthemergency.qrcode;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.util.Log;
 
-import com.crashlytics.android.Crashlytics;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;
@@ -76,7 +76,7 @@ public class QrCodeHelper {
             }
             return Bitmap.createBitmap(pixels, mWidth, mHeight, Bitmap.Config.ARGB_8888);
         } catch (WriterException e) {
-            Crashlytics.logException(e);
+            Log.e("WriterException",e.toString());
         }
     return null;
     }

@@ -30,6 +30,7 @@ public class LangSelect extends Fragment {
         select_lang = view.findViewById(R.id.lang_title);
         wizardNext = view.findViewById(R.id.wizard_next);
         rg2.clearCheck();
+        rg1.clearCheck();
          listener1 = new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
@@ -37,7 +38,7 @@ public class LangSelect extends Fragment {
                     rg2.setOnCheckedChangeListener(null); // remove the listener before clearing so we don't throw that stackoverflow exception(like Vladimir Volodin pointed out)
                     rg2.clearCheck(); // clear the second RadioGroup!
                     rg2.setOnCheckedChangeListener(listener2); //reset the listener
-                    Utils.loadLanguage(getContext(),i==R.id.wizard_lang_eng?"en":"am");
+                    Utils.loadLanguage(getContext(),i==R.id.wizard_lang_eng?"en":"am-rET");
                     loadResource();
                 }
             }
@@ -49,7 +50,7 @@ public class LangSelect extends Fragment {
                     rg1.setOnCheckedChangeListener(null);
                     rg1.clearCheck();
                     rg1.setOnCheckedChangeListener(listener1);
-                    Utils.loadLanguage(getContext(),i==R.id.wizard_lang_oro?"om":"ti");
+                    Utils.loadLanguage(getContext(),i==R.id.wizard_lang_oro?"om-rET":"ti-rET");
                     loadResource();
                 }
             }
